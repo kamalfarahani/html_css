@@ -13,12 +13,18 @@
         .main {
             color: green;
         }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <div>
         <h1 id="main-header">This is a div</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, <span class="error">" elit. Consequuntur nesciunt dignissimos amet </span> repudiandae autem vel, adipisci maxime accusamus voluptatum ex, enim necessitatibus a, blanditiis cum voluptatibus fugiat quam hic impedit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, <span class="error"> elit. Consequuntur nesciunt dignissimos amet </span> repudiandae autem vel, adipisci maxime accusamus voluptatum ex, enim necessitatibus a, blanditiis cum voluptatibus fugiat quam hic impedit!</p>
         
         <ul id="main-nav">
             <li><a href="#">Location 1</a></li>
@@ -28,19 +34,18 @@
         </ul>
     </div>
 
-    <div id="about">
+    <div id="about" class="card">
         <h3>About</h3>
         <p>Lorem ipsum dolor sit amet</p>
     </div>
 
-    <div id="contact">
+    <div id="contact" class="card">
         <h3>Contact</h3>
         <p class="main">Lorem ipsum dolor sit amet</p>
         <ul>
-            <li><a href="#">Location 1</a></li>
-            <li><a href="#">Location 2</a></li>
-            <li><a href="#">Location 3</a></li>
-            <li><a href="#">Location 4</a></li>
+            <li>Email: email@example.com</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>Address: 123 Main St, Anytown, USA</li>
         </ul>
     </div>
 
