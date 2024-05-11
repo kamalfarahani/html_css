@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em & Rem Units</title>
+    <style>
+
+        .box-1 {
+            font-size: 20px;
+        }
+
+        .box-1 h1 {
+            font-size: 4em;
+        }
+
+        .box-1 p {
+            font-size: 2em;
+        }
+
+        .box-1 ul {
+            font-size: 1.5em;
+        }
+
+        .html {
+            font-size: 62.5%;
+        }
+
+        .box-2 h1 {
+            font-size: 2.5rem;
+        }
+
+        .box-2 p {
+            font-size: 1.5rem;
+        }
+
+        .box-2 ul {
+            font-size: 1.8rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- REM vs EM: REM is relative to the font-size of the root element, 
+    and EM is relative to the font-size of the current element. -->
+    <div class="box-1">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+            </ul>
+        </ul>
+    </div>
+    
+    <div class="box-2">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>
